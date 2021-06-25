@@ -53,6 +53,8 @@ Y ya podemos ejecutar nuestro archivo .S y utilizar el cifrado cesar
 
 > ./nombreconelquequierenejecutar
 
+![ejecucion](/home/occ2g11/TPFinal/ejecutando.png)
+
 ### Equipo
  + Micaela Benitez
  + Pablo Ybarra
