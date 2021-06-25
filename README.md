@@ -49,11 +49,13 @@ Primero debemos ensamblar y compilar el programa
 > 
 > gcc -o nombreconelquequierenejecutar nombredelarchivo.o
 
+![](/home/occ2g11/TPFinal/compilacionyenlazado.PNG)
+
 Y ya podemos ejecutar nuestro archivo .S y utilizar el cifrado cesar
 
 > ./nombreconelquequierenejecutar
 
-![ejecucion](/home/occ2g11/TPFinal/ejecutando.png)
+![](/home/occ2g11/TPFinal/enfuncionamiento.PNG)
 
 ### Equipo
  + Micaela Benitez
