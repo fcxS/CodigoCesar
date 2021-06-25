@@ -18,12 +18,12 @@ Por ejemplo:
 >
 >Texto original:     ABCDEFGHIJKLMNÑOPQRSTUVWXYZ
 
-### Vulnerabilidades 
+## Vulnerabilidades 
 Si bien el cifrado César es un método muy básico y fácil de quebrar en comparación con otros algoritmos de cifrado de la actualidad, este mecanismo de cifrar los mensajes fue muy efectivo en su tiempo y ayudó a mantener en secreto las estrategias militares del César.
 
 De esta manera no lleva mucho timepo decodificar el cifrado y obtener el mensaje.
 
-### Objetivos
+## Objetivos
 En este trabajo se van a desarrollar y poner en práctica los conceptos de arquitectura ARM que se ven durante la segunda parte de la materia . En particular se presta atención a los siguientes conceptos:
 
 1. Datos almacenados en registros, pila, memoria
@@ -40,7 +40,7 @@ Estos puntos se ponen en práctica en el contexto de un juego de consola o termi
 
 3. Operaciones en Complemento A2
 
-### Compilación
+## Como Utilizar
 Una vez en una [Raspberry Pi](https://duckduckgo.com/?q=Raspberry+pi+&t=newext&atb=v250-1&ia=web) Fisica o ya sea Usando [QEMU](https://www.qemu.org/) que es un emulador
 
 Primero debemos ensamblar y compilar el programa 
@@ -51,14 +51,24 @@ Primero debemos ensamblar y compilar el programa
 
 ![compilacion y enlazado](https://user-images.githubusercontent.com/19401626/123487913-3a767180-d5e5-11eb-8c95-df3d95fff1b4.PNG)
 
-Y ya podemos ejecutar nuestro archivo .S y utilizar el cifrado cesar
+Y ya podemos ejecutar nuestro archivo .S y utilizar el cifrado cesar 
+
 
 > ./nombreconelquequierenejecutar
 
 ![ejecutando](https://user-images.githubusercontent.com/19401626/123487916-3b0f0800-d5e5-11eb-8f6b-f9ac0416729b.PNG)
+
+Para ingresar un input se deben respetar ciertas reglas
+
+
+>Cada parte del string debe estar separada de la otra con un separador dado por el carácter ;
+>
+> “Mensaje;  clave; opción;”
+
+
 ![enfuncionamiento](https://user-images.githubusercontent.com/19401626/123487917-3ba79e80-d5e5-11eb-9f54-b33f1d30d457.PNG)
 
-### Equipo
+## Equipo
  + Micaela Benitez
  + Pablo Ybarra
  + Facundo Saldaña
