@@ -21,7 +21,6 @@ Por ejemplo:
 ## Vulnerabilidades 
 Si bien el cifrado César es un método muy básico y fácil de quebrar en comparación con otros algoritmos de cifrado de la actualidad, este mecanismo de cifrar los mensajes fue muy efectivo en su tiempo y ayudó a mantener en secreto las estrategias militares del César.
 
-De esta manera no lleva mucho timepo decodificar el cifrado y obtener el mensaje.
 
 ## Objetivos
 En este trabajo se van a desarrollar y poner en práctica los conceptos de arquitectura ARM que se ven durante la segunda parte de la materia . En particular se presta atención a los siguientes conceptos:
@@ -72,5 +71,10 @@ Para ingresar un input se deben respetar ciertas reglas
  + Micaela Benitez
  + Pablo Ybarra
  + Facundo Saldaña
+
+
+## Conclusiones
+
+Con este trabajo concluimos con un pequeño programa de “cifrado César”, el cual nos ayudó para comprender y a utilizar código ensamblador , linux y raspberry pi.
  
  
